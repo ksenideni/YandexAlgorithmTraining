@@ -1,3 +1,5 @@
+package lesson1b;
+
 import java.util.Scanner;
 
 public class Interactor {

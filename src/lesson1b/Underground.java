@@ -1,3 +1,5 @@
+package lesson1b;
+
 import java.util.Scanner;
 
 public class Underground {
@@ -6,10 +8,10 @@ public class Underground {
         int N = in.nextInt();
         int i = in.nextInt();
         int j = in.nextInt();
-        if(i>j){
-            int t=j;
-            j=i;
-            i=t;
+        if (i > j) {
+            int t = j;
+            j = i;
+            i = t;
         }
         int res = Math.min(N - j - 1 + i, j - i - 1);
         System.out.println(res);
