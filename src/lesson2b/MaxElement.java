@@ -12,7 +12,8 @@ public class MaxElement {
             if (i > max) {
                 max = i;
                 count = 1;
-            } else {
+            }
+            else {
                 if (i == max) {
                     count++;
                 }

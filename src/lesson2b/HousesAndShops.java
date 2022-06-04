@@ -18,8 +18,7 @@ public class HousesAndShops {
                     for (int j = i - 1; j > prev; j--) {
                         if (a[j] == 1 && d[j] == 0) {
                             d[j] = i - j;
-                        }
-                        else {
+                        } else {
                             d[j] = Math.min(d[j], i - j);
                         }
                     }
